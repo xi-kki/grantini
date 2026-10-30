@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "api/research.js": {
+      "runtime": "edge"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/research", "destination": "/api/research.js" },
+    { "source": "/(.*)",         "destination": "/public/$1"       }
+  ]
+}

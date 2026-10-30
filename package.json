@@ -1,0 +1,6 @@
+{
+  "name": "grantini",
+  "version": "1.0.0",
+  "description": "Free agentic grant research bot powered by Groq",
+  "type": "module"
+}
